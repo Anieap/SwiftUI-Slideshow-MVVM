@@ -33,26 +33,6 @@ This separation makes the slideshow easy to extend, test, and reuse.
 
 ---
 
-
-## 🧩 Code Structure
-
-SwiftUI-Image-Slideshow/
-│
-├── Models/
-│   └── SlideShowModel.swift
-│
-├── ViewModels/
-│   └── SlideShowViewModel.swift
-│
-├── Views/
-│   └── SlideShowView.swift
-│
-└── Assets.xcassets/
-    ├── burger
-    ├── cake
-    └── icecream
-
-
 ## ⚙️ How It Works
 
 A Timer.publish(every: 5, ...) triggers a Combine publisher to move to the next slide every 5 seconds.
